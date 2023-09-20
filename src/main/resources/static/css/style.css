@@ -1,0 +1,23 @@
+.hello-world {
+  position: relative;
+  display: flex;
+  justify-content:center;
+  flex-direction:row;
+  min-height: 100vh;
+  background-color: var(--backgrounddefault);
+}
+
+.hello-world .frame {
+  position: absolute;
+  width: 256px;
+  height: 256px;
+  top: 33vh;
+  border-radius: 111px;
+}
+
+.hello-world .logo {
+  position: absolute;
+  width: 256px;
+  height: 256px;
+}
+
